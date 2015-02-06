@@ -1,3 +1,5 @@
+## sourcing script 3 loads our data frame, twoDays with the data in it
+## and loads the other functions we need from plot3.R as well as plot1.R and plot2.R
 source('plot3.R')
 
 png('plot4.png')

@@ -1,4 +1,5 @@
-
+## sourcing script 2, which calls script 1, has our data in data frame twoDays
+## and other functions we're using
 source('plot2.R')
 
 ## plot 3 function
@@ -13,7 +14,7 @@ makePlot3 <- function(legendBorderOrNot) {
     ## add legend, border controlled by legendBorderOrNot parameter input
     if(legendBorderOrNot == TRUE){
         legend('topright', legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'),
-           lty=1, col=c('black', 'red', 'blue'), cex=0.8, xjust=1, yjust=1)
+               lty=1, col=c('black', 'red', 'blue'), cex=0.8, xjust=1, yjust=1)
     }
     else {
         legend('topright', legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'),

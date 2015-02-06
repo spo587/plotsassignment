@@ -1,4 +1,10 @@
+
+
+## loading script 1, which already contains our data stored in the data frame
+## named twoDays, and also has the labelxaxis function we'll call
+
 source('plot1.R')
+
 
 library(chron)
 
