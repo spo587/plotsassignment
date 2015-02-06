@@ -1,4 +1,5 @@
 
+
 ## function to read in only the relevant rows of the data and return a data frame
 prepareData <- function(){
     hpc <- read.table('household_power_consumption.txt', header=TRUE, sep=';', 
